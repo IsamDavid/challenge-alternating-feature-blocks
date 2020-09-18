@@ -1,0 +1,97 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?mztwpf');
+  src:  url('fonts/icomoon.eot?mztwpf#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?mztwpf') format('truetype'),
+    url('fonts/icomoon.woff?mztwpf') format('woff'),
+    url('fonts/icomoon.svg?mztwpf#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-github:before {
+  content: "\e900";
+}
+.icon-twitter:before {
+  content: "\e901";
+}
+.icon-facebook:before {
+  content: "\e902";
+}
+.icon-instagram:before {
+  content: "\e903";
+}
+:root{
+  --Pink:hsl(322, 100%, 66%);
+  --Grayish-Blue: hsl(208, 11%, 55%);
+  --Very-Pale-Cyan: hsl(193, 100%, 96%);
+  --Very-Dark-Cyan: hsl(192, 100%, 9%);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+}
+body{
+  /* width: 100%;
+  height: 100vh; */
+  font-size: 1.8rem;
+}
+main{
+  text-align: center;
+}
+.mockups{
+  background: url(.././images/bg-hero-mobile.svg);
+  background-color: var(--Very-Pale-Cyan);
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  /* background-size: contain; */
+}
+.header{
+  display: flex;
+  margin-bottom: 10rem;
+  padding-top: 2rem;
+  justify-content: space-around;
+  align-items: center;
+}
+.header .header__logo img{
+  width: 11.5rem;
+  /* align-self: flex-end; */
+  /* align-self: center; */
+  /* width: rem; */
+}
+/* .mockups img{
+  width: 200px;
+} */
+
+img{
+  width: 100px;
+}
+footer{
+  background-color: var(--Very-Dark-Cyan);
+}
+@media screen and (min-width: 375px){
+
+}
+@media screen and (min-width: 1440px){
+
+}
