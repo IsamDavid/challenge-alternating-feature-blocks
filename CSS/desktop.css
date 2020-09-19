@@ -1,0 +1,129 @@
+.mockups{
+  background: url(.././images/bg-hero-desktop.svg);
+  background-color: var(--Very-Pale-Cyan);
+  background-repeat: no-repeat;
+}
+.header{
+  margin-bottom: initial;
+  justify-content: space-between;
+}
+.header .header__logo{
+  margin-right:initial;
+  margin-left: 10rem;
+}
+.header .header__logo img{
+  width: 20rem;
+}
+.header .header__btn{
+  margin-right: 10rem;
+  width: 15rem;
+  height: 4rem;
+}
+.hero{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-content__description{
+  width: 60vw;
+}
+.hero .hero__title{
+  width: 70%;
+  margin-left: 5rem;
+  font-size: 3.2rem;
+  text-align: initial;
+}
+.hero .hero__description{
+  text-align: initial;
+}
+.hero .hero__btn{
+  display: inherit;
+  justify-content: flex-end;
+  margin-left: 4rem;
+}
+.hero .hero__img{
+  width: 60vw;
+  margin: initial;
+}
+.flowing-conversations .card__description{
+  padding-left: 5rem;
+  padding-right: 0;
+}
+.flowing-conversations .card__title{
+  padding-left: 5rem;
+}
+.card__title{
+  font-size: 2.4rem;
+}
+.card__description{
+  font-size: 1.8rem;
+  padding-right: 5rem;
+}
+.last-card__title{
+  font-size: 2.4rem;
+}
+.footer{
+  padding-right: 1.5rem;
+  font-size: 1.8rem;
+}
+.footer__section{
+  display: grid;
+  grid-template: 1fr / 1fr 1fr 1fr 1fr;
+}
+.footer__contacts{
+  grid-column: 1/2;
+  grid-row: 1/2;
+  width: initial;
+}
+.footer__info{
+  display: grid;
+  grid-column: 2/4;
+  justify-content: center;
+  text-align: initial;
+  align-content: center;
+  grid-template-columns: 250px 250px;
+  grid-template-rows: 50px 50px 50px;
+  padding-bottom: 8rem;
+}
+.footer__info li:nth-child(-n+3){
+  padding-left: 70px;
+  grid-column: 1/2;
+  margin: initial;
+}
+.footer .footer__info li:nth-child(4){
+  padding-left: 8rem;
+  grid-row: 1/2;
+  grid-column: 2/3;
+  margin: initial;
+}
+.footer .footer__info li:nth-child(5){
+  grid-column: 2/3;
+  margin: initial;
+  padding-left: 8rem;
+  grid-row: 2/3;
+}
+.footer__info li:nth-child(6){
+  grid-column: 2/3;
+  margin: initial;
+  padding-left: 8rem;
+  grid-row: 3/4;
+}
+.footer .footer__social-media{
+  grid-column: 4/-1;
+  grid-row: 1/2;
+}
+.footer .copyright{
+  grid-column: 4/5;
+}
+.footer__social-media{
+  width: initial;
+  grid-column: 3/-1;
+  grid-row: 1/2;
+}
+.copyright{
+  margin: initial;
+  padding: initial;
+  display: block;
+  grid-column: 3/-1;
+  align-self: flex-end;
+}
